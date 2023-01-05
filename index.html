@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>javaScript Quiz</title>
+  </head>
+  <body>
+    <header>
+        <div id="highscore">
+            <h4> View High Scores</h4>
+        </div>
+        <div>
+            <h4 id="timer"></h4>
+        </div>
+    </header>
+    <main id="start">
+      <card>
+        <h1>Coding Quiz</h1>
+        <h2>Test your coding knowledge and compete against other programmers with this fun quiz!</h2>
+        <button id="startbutton">Begin the Quiz</button>
+      </card>
+    </main>
+    <main class ="cards" id="questions">
+        <card id="q1"> 
+          <h1>Commonly used data types do NOT include</h1>
+          <div>
+          <button class="wrong"></button>
+          <button class="wrong"></button>
+          <button class="wrong"></button>
+          <button class="correct"></button>
+          </div>
+        </card>
+        <card id="q2">
+          <h1>String values must be contained between _____ to contain</h1>
+          <div class="choices">
+          <button class="wrong"></button>
+          <button class="wrong"></button>
+          <button class="wrong"></button>
+          <button class="correct"></button>
+          </div>
+        </card>
+        <card id="q3>">
+          <h1>Arrays in a javaScript can be used to store _______.</h1>
+          <div class="choices">
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="correct"></button>
+            </div>
+        </card>
+        <card id="q4">
+          <h1>A very useful tool during development and debugging</h1>
+          <div class="choices">
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="correct"></button>
+            </div>
+        </card>
+        <card id="q5">
+          <h1>The condition an if/esle statement is enclosed with</h1>
+          <div class="choices">
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="wrong"></button>
+            <button class="correct"></button>
+            </div>
+        </card>
+    </main>
+    <main class="cards" id="finished">
+      <card>
+
+      </card>
+    </main>
+    <main id="highscore"></main>
+    <script src="./assets/script.js"></script>
+  </body>

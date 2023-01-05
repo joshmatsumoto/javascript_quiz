@@ -1,0 +1,14 @@
+.cards{
+    width: 75%;
+    height: 90%;
+    text-align:center;
+    display: none;
+}
+header{
+    width: 100%;
+    display:inline;
+    height:10%;
+}
+#start{
+    text-align: center;
+}
